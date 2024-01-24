@@ -1,0 +1,44 @@
+@charset 'UTF-8';
+
+/* 
+em HTML é id =  em CSS é #
+em HTMl é class = em CSS é .
+*/
+
+body {
+    background-color: bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+h1 {
+    color: rgba(68, 50, 27, 0.986);
+}
+
+h1#principal {
+    text-align: center;
+    background-color: rgb(250, 155, 38);
+    color: bisque;
+}
+
+h1.subtitulo {
+    text-align: center;
+    background-color: rgba(128, 100, 66, 0.479);
+}
+
+h2 {
+    color: brown;
+}
+
+h2.basico {
+    color: green;
+}
+
+h2.intermediario {
+    color: blue;
+}
+
+h2.avancado {
+    color: red;
+}
